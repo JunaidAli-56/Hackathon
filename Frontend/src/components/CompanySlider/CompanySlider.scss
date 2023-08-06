@@ -1,0 +1,28 @@
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+
+    @media (max-width: 768px) {
+        img {
+            height: 120px;
+            width: 120px;
+        }
+    }
+
+    @media (max-width: 573px) {
+        img {
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    @media (max-width: 390px) {
+        img {
+            height: 70px;
+            width: 70px;
+        }
+    }
+}

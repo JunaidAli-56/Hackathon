@@ -1,0 +1,127 @@
+.product-card {
+    // border: 0 !important;
+    position: relative;
+    border: 0;
+
+    &:hover {
+        cursor: pointer;
+
+        .other-options {
+            display: block;
+
+            i {
+                color: #087d04;
+            }
+        }
+    }
+
+    .heart-icon {
+        position: absolute;
+        z-index: 1000;
+        top: 2%;
+        right: 4%;
+        font-size: 18px;
+        // border: 2px solid red;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+
+        :hover {
+            transform: scale(1.13);
+        }
+
+        i {
+            color: #f44361;
+        }
+    }
+
+    .other-options {
+        // border: 2px solid #00ff00;
+        position: absolute;
+        top: 9%;
+        right: 4%;
+        z-index: 1000;
+        display: none;
+        height: 95px;
+        width: 30px;
+        text-align: center;
+
+        :hover {
+            transform: scale(1.06);
+
+        }
+
+        div {
+            a {
+                font-size: 18px;
+
+            }
+        }
+    }
+
+    .img-div-outer {
+        display: flex;
+        justify-content: center;
+
+        .img-div {
+            position: relative;
+            height: 250px;
+            width: 250px;
+            // border: 2px solid #3300ff;
+
+
+            img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+
+            }
+
+        }
+    }
+
+}
+
+.product-card-body {
+    font-weight: 500;
+
+    p {
+        text-transform: capitalize;
+        font-size: 18px;
+        color: #c8780f;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+
+    .icon-div {
+        // border: 2px solid red;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            // border: 2px solid green !important;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: #d2841f;
+                }
+            }
+        }
+    }
+
+    span {
+        color: #058905;
+        padding-top: 18px;
+
+    }
+}

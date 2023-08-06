@@ -1,0 +1,48 @@
+.short-card {
+//  border: 2px solid red; 
+    div {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+
+        div {
+            // border: 2px solid red;
+            position: relative;
+            border-radius: 12px;
+            cursor: pointer;
+
+
+
+            img {
+                border-radius: 12px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+
+                &:hover {
+                    transform: scale(0.7);
+
+                }
+            }
+        }
+    }
+}
+
+.short-card-about {
+
+    p {
+        color: #b74e03;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        text-transform: capitalize;
+        font-size: 20px;
+
+    }
+
+}

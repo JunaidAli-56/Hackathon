@@ -1,0 +1,77 @@
+.contentStyle {
+    height: 300px;
+    line-height: 20px !important;
+}
+
+.slider-main {
+    // border: 2px solid red;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 12px;
+
+    img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+
+    }
+
+    div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        // background-color: rgba(0, 128, 0, 0.581);
+        padding: 20px;
+        color: #000000;
+        text-transform: capitalize;
+
+        p {
+            color: #b74e03;
+            margin: 0;
+
+        }
+
+        h1 {
+            font-size: 34px;
+            padding: 10px 0px;
+        }
+
+        span {
+            font-weight: 400;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 0.7em 1.8em;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #0F6292;
+            box-shadow: 0px 15px 20px #0f629252;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+
+        button:active {
+            transform: translateY(-1px);
+        }
+    }
+}
+
+
+//short-card 
